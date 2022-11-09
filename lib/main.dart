@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Counter Tugas PBP"),
+        title: Text("Program Counter"),
       ),
       body: Center(
         child: Column(
