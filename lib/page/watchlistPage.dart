@@ -74,7 +74,9 @@ class _WatchListPageState extends State<WatchListPage> {
                           boxShadow: const [
                             BoxShadow(
                               color: Colors.black,
-                              blurRadius: 2.0)
+                              blurRadius: 2.0,
+                              offset: Offset(0, 4) 
+                            )
                           ]
                         )
                         : BoxDecoration(
@@ -83,7 +85,9 @@ class _WatchListPageState extends State<WatchListPage> {
                           boxShadow: const [
                             BoxShadow(
                               color: Colors.black,
-                                blurRadius: 2.0)
+                                blurRadius: 2.0,
+                                offset: Offset(0, 4) 
+                            )
                           ]
                         ),
                       child: Column(
